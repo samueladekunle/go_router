@@ -90,7 +90,7 @@ TextButton(
 Some developers prefer to make their `GoRouter` instance global so that they can
 call them without the use of a context, which meant they couldn't call `pop`.
 This was done as a simple way to implement `GoRouter.pop` by simply forwarding
-to `Navigator.pop`, which itself was non-intuitive; go_router has it's own stack
+to `Navigator.pop`, which itself was non-intuitive; go_router has its own stack
 of pages, calling `pop` should just work with those pages, right?
 
 Either way, you can continue to call `Naviator.pop(context)` if that's the
